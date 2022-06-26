@@ -1,8 +1,7 @@
-.filmes__item{
+.series__item{
     display: inline-block;
     margin: 5px;
     color: #fff;
-    font-size: 18px;
 }
 
 .recomendados{
@@ -11,12 +10,12 @@
 }
 
 
-.filmes__img{
+.serie__img{
     width: 160px;
     height: 239px;
     display: flex;
 }
 
-.filmes__item:hover{
+.series__item:hover{
     transform: scale(1.1);
 }

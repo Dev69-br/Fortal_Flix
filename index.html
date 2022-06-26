@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/cabecalho.css">
     <link rel="stylesheet" href="./assets/css/apresentacao.css">
     <link rel="stylesheet" href="./assets/css/filmes.css">
+    <link rel="stylesheet" href="./assets/css/series.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
@@ -18,6 +19,7 @@
 <body>
     <img class="launcherbr" src="assets/img/doutor_estranho.webp" alt="">
     <header class="cabecalho">
+        <div class="logo">Fortal Flix</div>
         <nav class="menu">
             <ul class="menu__lista">
                 <li class="menu-item"><a href="#" class="menu__link">Home</a> </li>
@@ -27,7 +29,8 @@
             </ul>
         </nav>
     </header>
-    <section class="apresentaçao">
+    <main>
+        <section class="apresentaçao">
         <div class="apresentaçao__info">
             <div class="apresentaçao__transparencia"></div>
             <img src="assets/img/titulo.webp" class="apresentaçao__titulo" alt="">
@@ -36,11 +39,36 @@
         </div>
     </section>
     <section class="filmes">
-        <div class="filmes__transparencia"></div>
-        <ul class="filmes__recomendados">
-            <li></li>
+        <h2 class="recomendados">Filmes Recomendados</h2>
+        <ul class="filmes__lista">
+            <li class="filmes__item"><a href="#"><img class="filmes__img" src="assets/img/filmes/velozes_furiosos9.jpg" alt=""></a> Velozes e Furiosos 9</li>
+
+            <li class="filmes__item"><a href="#"><img class="filmes__img" src="assets/img/filmes/tomb_raider.jpg" alt=""></a> Tomb raider</li>
+
+            <li class="filmes__item"><a href="#"><img class="filmes__img" src="assets/img/filmes/DoutorEstranho_mutiverso.jpg" alt=""></a>Doutor Estranho</li>
+
+            <li class="filmes__item"><a href="#"><img class="filmes__img" src="assets/img/filmes/oHomemDeToronto.jpg" alt=""></a>O Homem De Toronto</li>
+
+            <li class="filmes__item"><a href="#"><img class="filmes__img" src="assets/img/filmes/Sonic2.jpg" alt=""></a>Sonic 2 o Filme</li>
+
+            <li class="filmes__item"><a href="#"><img class="filmes__img" src="assets/img/filmes/Tico_teco.jpg" alt=""></a>Tico E Teco
         </ul>
     </section>
+    <section class="series">
+        <h2 class="recomendados">Series Recomendadas</h2>
+        <ul class="series__lista">
+
+            <li class="series__item"><a href="#"><img class="serie__img" src="assets/img/series/la_casa.jpg" alt=""></a>La Casa De Papel Coreia</li>
+
+            <li class="series__item"><a href="#"><img class="serie__img" src="assets/img/series/Peaky_Blinders.jpg" alt=""></a> Peaky Blinders</li>
+        </ul>
+
+    </section>
+    </main>
+    <footer>
+        <p>&copy;Equipe Fortal</p>
+    </footer>
+    
     <script src="https://kit.fontawesome.com/09f3464ee9.js" crossorigin="anonymous"></script>
 </body>
 </html>
