@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #803715;
+    background: #042326;
     padding: 20px;
 }
 
@@ -22,10 +22,10 @@
 }
 
 .menu-link{
-    color: #FFFFCE;
+    color: aliceblue;
     text-decoration: none;
 }
 
 .menu-link:hover{
-    color: black;
+    color: #1D7373;
 }
