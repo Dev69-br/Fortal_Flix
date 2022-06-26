@@ -1,0 +1,31 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #803715;
+    padding: 20px;
+}
+
+.logo{
+    width: 20%;
+    margin-left: 10px;
+}
+
+.menu-lista{
+    display: flex;
+    
+}
+
+.menu-item{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.menu-link{
+    color: #FFFFCE;
+    text-decoration: none;
+}
+
+.menu-link:hover{
+    color: black;
+}
