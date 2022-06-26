@@ -6,21 +6,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
     <link rel="stylesheet" href="./assets/css/normalize.css">
-    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="./assets/css/cabecalho.css">
+    <link rel="stylesheet" href="./assets/css/apresentacao.css">
+    <link rel="stylesheet" href="./assets/css/filmes.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
     <title>Fortal Flix 1.0 - Assita Filmes E Series De Graça</title>
 </head>
 <body>
+    <img class="launcherbr" src="assets/img/doutor_estranho.webp" alt="">
     <header class="cabecalho">
-        <img class="logo" src="./assets/img/logo.png" alt="">
         <nav class="menu">
-            <ul class="menu-lista">
-                <li class="menu-item"><a href="#" class="menu-link">Home</a> </li>
-                <li class="menu-item"><a href="#" class="menu-link">Series</a> </li>
-                <li class="menu-item"><a href="#" class="menu-link">Generos</a></li>                
-                <li class="menu-item"><a href="#" class="menu-link">Quem Somos</a> </li>                
+            <ul class="menu__lista">
+                <li class="menu-item"><a href="#" class="menu__link">Home</a> </li>
+                <li class="menu-item"><a href="#" class="menu__link">Series</a> </li>
+                <li class="menu-item"><a href="#" class="menu__link">Generos</a></li>                
+                <li class="menu-item"><a href="#" class="menu__link">Quem Somos</a> </li>                
             </ul>
         </nav>
     </header>
+    <section class="apresentaçao">
+        <div class="apresentaçao__info">
+            <div class="apresentaçao__transparencia"></div>
+            <img src="assets/img/titulo.webp" class="apresentaçao__titulo" alt="">
+            <a class="player__inicio" href="#"><i class="fa-solid fa-play"></i>Assistir Filme</a>
+            <a class="player__trailer" href="#"><i class="fa-solid fa-play"></i>Trailer</a>
+        </div>
+    </section>
+    <section class="filmes">
+        <div class="filmes__transparencia"></div>
+        <ul class="filmes__recomendados">
+            <li></li>
+        </ul>
+    </section>
+    <script src="https://kit.fontawesome.com/09f3464ee9.js" crossorigin="anonymous"></script>
 </body>
 </html>

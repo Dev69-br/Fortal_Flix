@@ -1,0 +1,60 @@
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    border-bottom: 1px solid white;
+
+
+}
+.logo{
+    width: 140px;
+    height: 80px;
+}
+
+
+.menu__lista{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+
+.menu__link{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu__link:hover{
+    background: rgba(217, 5, 5, 0.801);
+    border-radius: 5px;
+}
+
+.launcherbr{
+    width: 100%;
+    background-size: cover;
+    background-position: center top;
+    height: 800px;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.6);
+    position: relative;
+}
